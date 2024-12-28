@@ -3,9 +3,7 @@ import localFont from "next/font/local";
 import "@/styles/globals.css";
 
 const pretendard = localFont({
-  src: "@/styles/fonts/PretendardVariable.woff2",
-  display: "swap",
-  weight: "45 920",
+  src: "../styles/fonts/PretendardVariable.woff2",
 });
 
 export const metadata: Metadata = {
